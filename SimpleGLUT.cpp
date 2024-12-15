@@ -300,7 +300,7 @@ void updatePhysics() {
 }
 //-------------------------end here for the existing code ---------------------
 
-//-------use this code if don't want to reswapn or eliminate one of the object while colliding starts here ---------------------- 
+//-------use this code if don't want to respawn or eliminate one of the object while colliding starts here ---------------------- 
 //void resolveCollisions() {
 //    for (int i = 0; i < NUM_BOIDS; i++) {
 //        for (int j = i + 1; j < NUM_BOIDS; j++) {
@@ -517,7 +517,7 @@ int main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(g_windowWidth, g_windowHeight);
     glutInitWindowPosition(100, 100);
-    glutCreateWindow("Flocking with Predator");
+    glutCreateWindow("Behavioral Motion Control System");
 
     // Init
     initBoids();

@@ -46,5 +46,6 @@
     <Text Include="input.txt" />
     <Text Include="Readme for LAB-2 Instructions.txt" />
     <Text Include="Readme for LAB-3 Instructions.txt" />
+    <Text Include="Readme for LAB-4 Instruction.txt" />
   </ItemGroup>
 </Project>
